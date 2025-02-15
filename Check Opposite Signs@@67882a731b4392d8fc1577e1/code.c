@@ -11,9 +11,9 @@ int main()
 
     
     if (!(num>0)) {
-        printf("True\n");
-    } else {
         printf("False\n");
+    } else {
+        printf("True\n");
     }
 
     return 0;
