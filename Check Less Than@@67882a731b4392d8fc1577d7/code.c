@@ -13,7 +13,7 @@ int main()
     if (num1 > num2) {
         printf("False\n");
     } else {
-        printf("False\n");
+        printf("True\n");
     }
 
     return 0;
