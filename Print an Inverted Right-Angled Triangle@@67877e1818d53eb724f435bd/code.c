@@ -10,7 +10,7 @@ int main()
         for (int k=0;k<1; k++);{
             printf("*");
         }
-        printf("\n\n");
+        printf("\n");
      }
       return 0;
     
