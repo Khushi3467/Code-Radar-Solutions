@@ -16,7 +16,7 @@ void printPyramid(int n) {
 }
 
 int main() {
-    int height = 2; 
+    int height = 7; 
     printPyramid(height);
     return 0;
 }
