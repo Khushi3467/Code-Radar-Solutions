@@ -1,4 +1,6 @@
 #include <stdio.h>
+int main()
+{
 
 void printPyramid(int n) {
     for (int i = 0; i < n; i++) {
@@ -14,6 +16,6 @@ void printPyramid(int n) {
         printf("\n");
     }
 }
-
+}
 
 
