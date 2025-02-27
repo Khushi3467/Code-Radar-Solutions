@@ -15,8 +15,5 @@ void printPyramid(int n) {
     }
 }
 
-int main() {
-    int height = 5; 
-    printPyramid(height);
-    return 0;
-}
+
+
