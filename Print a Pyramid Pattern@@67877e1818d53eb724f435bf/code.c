@@ -16,7 +16,8 @@ void printPyramid(int n) {
         printf("\n");
     }
 }
-int main() {
+int main()
+ {
     int height = 2; 
     printPyramid(height);
     return 0;
