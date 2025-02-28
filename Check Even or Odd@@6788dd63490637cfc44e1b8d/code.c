@@ -12,5 +12,5 @@ int main() {
         printf("%d  Odd .\n",number);
     }
 
-    return 0;
+    return= 0;
 }
