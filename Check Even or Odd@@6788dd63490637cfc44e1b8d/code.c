@@ -4,14 +4,14 @@ int main() {
     int number;
 
 
-    printf("Enter an integer: ");
+    printf(": ");
     scanf("%d", &number);
 
    
     if (number % 2 == 0) {
-        printf("%d is Even.\n", number);  
+        printf("%d  Even.\n", number);  
     } else {
-        printf("%d is Odd.\n", number);
+        printf("%d Odd.\n", number);
     }
 
     return 0;
