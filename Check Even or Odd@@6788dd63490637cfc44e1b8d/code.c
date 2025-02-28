@@ -7,9 +7,9 @@ int main() {
     scanf("%d", &number);
 
     if (number % 2 == 0) {
-        printf("%d even .\n");
+        printf("%d even .\n",number);
     } else {
-        printf("%d  odd .\n");
+        printf("%d  odd .\n",number);
     }
 
     return 0;
