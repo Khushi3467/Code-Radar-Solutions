@@ -8,11 +8,11 @@ int main()
             printf("%d ", j);
         }
       
-        
+       
+      printf("\n");  
        
      }
-    
-      printf("\n");
+   
     return 0;
 }
     
