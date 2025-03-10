@@ -2,7 +2,7 @@
 int main()
 {
     int n, num = 1; // Initialize 'num' to start from 1
-    printf("Enter the number of rows: "); // Add proper prompt message
+    printf(""); // Add proper prompt message
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) { 
