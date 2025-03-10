@@ -7,7 +7,7 @@ scanf("%d", &n);
     char letter ='A'; 
     for(int j=1; j<=n; j++){
         printf("%c",letter );
-        letter++;
+      
         
     }
     printf("\n");
