@@ -5,8 +5,8 @@ printf("");
 scanf("%d", &n);
     for  (int i=1; i<=n; i++){
     char letter ='A'; 
-    for(int j=1; j<=n-1; j++){
-        printf("%c ",letter);
+    for(int j=1; j<=n; j++){
+        printf("%c ");
         letter++;
         
     }
