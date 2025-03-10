@@ -3,9 +3,9 @@ int main(){
 int n;
 printf("");
 scanf("%d", &n);
-    for  (int i=1; i<=n; i++){
+    for  (int i=1; i<=j; i++){
     char letter ='A'; 
-    for(int j=1; j<=i; j++){
+    for(int j=1; j<=n; j++){
         printf("%c ",letter);
         letter++;
         
