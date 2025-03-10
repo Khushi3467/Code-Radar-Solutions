@@ -1,15 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int n, num = 1;
-    printf("");
+    int n, num = 1; // Initialize 'num' to start from 1
+    printf("Enter the number of rows: "); // Add proper prompt message
     scanf("%d", &n);
+
     for (int i = 1; i <= n; i++) { 
-        for (int j = 1 + 1; j <= i; j++) { 
-            printf("%d ", num);
-            num++;
+        for (int j = 1; j <= i; j++) { 
+            printf("%d ", num); // Print the current number
+            num++; // Increment 'num' for the next number
         }
-        printf("\n");  
+        printf("\n"); // Move to the next row
     }
+
     return 0;
 }
+
