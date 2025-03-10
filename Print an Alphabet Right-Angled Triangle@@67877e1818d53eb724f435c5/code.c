@@ -3,12 +3,12 @@ int main(){
 int n;
 printf("");
 scanf("%d", &n);
- for (int i=1; i<=n;i++){
+ for (int i=1; i<=n; i++){
     char letter ='A';
-    for (int j=1;j<=i; j++){
+    for (int j=1; j<=i;  j++){
         printf("%c",letter);
         letter++;
-         printf("\n");
+        
     }
     printf("\n");
  }
