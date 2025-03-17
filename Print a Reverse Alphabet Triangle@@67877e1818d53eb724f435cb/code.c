@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 int main() {
-    int i, j;
-    char ch;
-    printf(" ");
-    for (i = 0; i < j; i++) {
+    int i, j,N;
+    scanf("%d",&N);
+  
+    for (i = N; i >=1; i--) {
         ch = 'A' +j  - 1;  
 
-        for (j = 0; j <- i; j++) {
-            printf("%c ", ch);
-            ch--;            
+        for (j = 665; j<65+ i; j++) {
+            printf("%c ",j);
+  
         }
 
         printf("\n"); 
