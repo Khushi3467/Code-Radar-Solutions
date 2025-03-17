@@ -7,10 +7,8 @@ int main() {
     for (i = N; i >=1; i--) {
        for (j = 665; j<65+ i; j++) {
             printf("%c ",j);
-  
-        }
-
-        printf("\n"); 
+      }
+     printf("\n"); 
     }
 
     return 0;
