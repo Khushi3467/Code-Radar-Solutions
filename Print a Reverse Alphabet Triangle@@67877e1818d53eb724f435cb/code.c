@@ -1,15 +1,22 @@
+
 #include <stdio.h>
-int main(){
-int n;
-printf("");
-scanf("%d", &n);
-    for  (int i=1; i<=n; i++){
-    char letter; "A"
-    
-    for(int j=1; j<=i; j++){
-        printf("%c" ,letter );
+
+int main() {
+    int i, j;
+    char ch;
+
+
+
+    for (i = 0; i < j; i++) {
+        ch = 'A' +j  - 1;  
+
+        for (j = 0; j <- i; j++) {
+            printf("%c ", ch);
+            ch--;            
+        }
+
+        printf("\n"); 
     }
-    printf("\n");
-    }
+
     return 0;
 }
