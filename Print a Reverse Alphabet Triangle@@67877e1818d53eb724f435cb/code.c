@@ -4,9 +4,7 @@
 int main() {
     int i, j;
     char ch;
-
-
-
+    printf(" ");
     for (i = 0; i < j; i++) {
         ch = 'A' +j  - 1;  
 
