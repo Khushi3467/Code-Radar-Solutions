@@ -6,9 +6,7 @@ int main() {
     scanf("%d",&N);
   
     for (i = N; i >=1; i--) {
-       
-
-        for (j = 665; j<65+ i; j++) {
+       for (j = 665; j<65+ i; j++) {
             printf("%c ",j);
   
         }
