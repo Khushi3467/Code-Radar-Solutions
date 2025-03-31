@@ -23,14 +23,14 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 2; 
 
-    printf("Original array: ");
+    printf(" ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
 
     rotateArray(arr, n, k);
 
-    printf("\nRotated array: ");
+    printf("\n ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
