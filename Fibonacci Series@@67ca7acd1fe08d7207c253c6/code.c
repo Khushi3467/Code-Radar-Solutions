@@ -21,7 +21,7 @@ int main() {
     if (numTerms < 2) {
         printf("Please enter a number greater than or equal to 2.\n");
     } else {
-        printf("Fibonacci Series: ");
+        printf(" ");
         fibonacciSeries(numTerms);
     }
 
