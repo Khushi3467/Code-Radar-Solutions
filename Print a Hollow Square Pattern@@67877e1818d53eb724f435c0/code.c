@@ -21,7 +21,7 @@
 int main() {
     int n;
     
-    printf(" ");
+    printf("");
     scanf("%d", &n);
 
     for(int i = 0; i < n; i++) {
